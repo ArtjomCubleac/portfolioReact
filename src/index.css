@@ -11,3 +11,46 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.g-card {
+  margin: 20px;
+}
+
+.jumbotron {
+  background-color: blue;
+}
+
+.g-card-image:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.g-card-image {
+  border-radius: 10px;
+  width: 300px;
+  height: 480px;
+}
+
+.g-card-info {
+  margin-top: 10px;
+  min-height: 100px;
+}
+
+.g-card-title {
+  font-size: 24px;
+  margin: 0px;
+}
+
+.g-card-sub-title {
+  font-size: 16px;
+  margin: 0px;
+}
+
+.success-msg {
+  color: #57a773;
+  padding: 10px 15px;
+}
+
+.err-msg {
+  color: #ee6352;
+  padding: 10px 15px;
+}
